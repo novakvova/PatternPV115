@@ -31,6 +31,11 @@ namespace _2.AbstractFactory
             Sandwich sandwich = factory.CreateSandwich(); //Хочу бутерброт
             var dessert = factory.CreateDessert(); //Хочу десерт
 
+            if(sandwich is RoshenSandwich)
+            {
+                var roshSand = (RoshenSandwich)sandwich;
+                //Console.WriteLine("Roshan sandwich price: "+sandwich.Price);
+            }
             Console.WriteLine("\nSandwich: " + sandwich.GetType().Name);
             Console.WriteLine("Dessert: " + dessert.GetType().Name);
 
