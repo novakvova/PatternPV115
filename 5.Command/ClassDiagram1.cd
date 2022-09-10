@@ -19,7 +19,7 @@
         <Point X="2.25" Y="5" />
         <Point X="2.25" Y="4.433" />
         <Point X="3.438" Y="4.433" />
-        <Point X="3.438" Y="3.853" />
+        <Point X="3.438" Y="4.103" />
       </Path>
     </AssociationLine>
     <TypeIdentifier>
@@ -39,7 +39,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="_5.Command.Query">
-    <Position X="2.5" Y="0.5" Width="2.25" />
+    <Position X="2.25" Y="0.5" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAIAAQAAAAAAAAAAQAAAAAAAAAAEAACAAAAAAAAAAAA=</HashCode>
       <FileName>Query.cs</FileName>
@@ -55,7 +55,7 @@
         <Point X="4.875" Y="5" />
         <Point X="4.875" Y="4.433" />
         <Point X="3.438" Y="4.433" />
-        <Point X="3.438" Y="3.853" />
+        <Point X="3.438" Y="4.103" />
       </Path>
     </AssociationLine>
     <TypeIdentifier>
@@ -68,7 +68,7 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Interface Name="_5.Command.Order">
-    <Position X="2.75" Y="2.75" Width="1.5" />
+    <Position X="2.75" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
       <FileName>Order.cs</FileName>
