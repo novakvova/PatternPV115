@@ -11,6 +11,13 @@ namespace _10.Obsaever
             //Console.WriteLine("Hello World!");
             //WriteToFile();
             //ReadFile();
+            Subject maryna = new Subject();
+            new IvanObserver(maryna);
+            new PeterObserver(maryna);
+            Console.WriteLine("First state: 18");
+            maryna.State = 18;
+            Console.WriteLine("First state: 21");
+            maryna.State = 21;
         }
 
         private static void ReadFile()
